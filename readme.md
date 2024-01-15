@@ -86,3 +86,54 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
         print(type(z))      # output:=> <class 'float'>
     ```
 
+### Many Values to Multiple Variables
+- Python apne user ko allow karta hai jisse wo ek saath kayi variable main value ek hi line main assgin kar sakte hain
+```
+   x, y, z = "Ajay", "Ramesh", "Suresh"
+   print(x)
+   print(y)
+   print(z)
+```
+
+### Unpacking
+- Agar aapke pass collection of value hain kisi list ya tuple main to aap us values ko extract kar sakte ho multiple variable main. esi prakriya ko unpacking kahte hain.
+```
+   marks = [98,76,87]
+   x, y, z = marks
+   print(x)
+   print(y)
+   print(z)
+```
+
+## Print function
+- Print() function ek aur ek se jyada parameter le sakta hai jise wo print karta hai console per.ab wo 2 ya 2 se jyada number ka addtion karna ho ya aur koi mathemetical operation ho jaise...
+```
+   print(3 + 4)
+   print(12 * 43)
+   print("hello world")
+```
+
+## Global Variable
+- Global variable wo variable hote hain jinhe hum pure program main kahi bhi access kar sakte hain
+  global variable ko hum us program ke kisi bhi functin main use kar sakte.Jaise..
+```
+   x = "awesome"                       # string type variable
+
+   def myfunc():                       # function declaration
+   print("Python is " + x)             
+
+   myfunc()                            # function call
+```
+
+   agar koi variable kisi function ke andar define hua hai aur aap usse vahi global variable banana chahta hain to aap use variable ko define karte wakt 'glabal' keyword se define karein.
+```
+   def myfunc():
+   global x
+   x = "fantastic"
+
+   myfunc()
+
+   print("Python is " + x)
+```
+
+## Data Types
