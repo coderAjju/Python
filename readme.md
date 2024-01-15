@@ -2,7 +2,7 @@
 Python ek high-level, general-purpose programming language hai jo apni readability, simplicity, aur versatility ke liye prasiddh hai. Guido van Rossum ne ise 1991 mein banaya tha
 
 ## What python can do?
-Python ek versatile and popular programming language jo bahut sare kaam kar sakti alag alag field main.
+Python ek versatile and popular programming language jo bahut sare kaam kar sakti hai alag alag field main.
 kuch field niche diye gaye hain...
 
 - #### Web development
@@ -29,7 +29,7 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  - Python ek interpreter programming language hai, iska matlab hai ki jab bhi code likha jata hai, usko turant execute kiya ja sakta hai. 
  - Jaisa ki python ek versatile programming language hai, iska matlab hai ki python ko procedural programming ke taur per , Object - oriented programming ke taur per ya phir functional programming ke taur per use kiya ja sakta hai.
 
- ## Python main aap hello world ka program kuch ek tarah se likh sakte hain
+ ## Python main aap hello world ka program kuch es tarah se likh sakte hain
     print("Hello, World!")
 
 ## Comments in Python
