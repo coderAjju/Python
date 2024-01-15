@@ -33,6 +33,7 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
     print("Hello, World!")
 
 ## Comments in Python
- - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain.
+ - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain. Python language ke andar koi multi line comment likhna ka symbol nhi hain hame each line ke liye hash (#) use karna padega.
+
     ```print("Hello, World!") #this is comment```
  
