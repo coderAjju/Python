@@ -42,6 +42,10 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  ## Variables
  - Variables are just like a container for store data.
  - Python programming language mein aisa koi keyword nhi hain jisse hum variable ke type of define kar paye.
+ - Variable name jo hote hain wo case-sensitive hote hain jaise ajay aur AJAY both are different.
+        - kisi bhi variable ko aap number se nhi bana sakte jaise 2x,3name 
+        - aap kisi bhi variable ko symbol se nhi bana sakte jaise #name,@value
+        - aap kewal character aur underscore ka use kareinge variable banane ke liye jaise x,y,name,_value
  - Declaration of python variables...
  ```
     a = 4                                          # int type variable
@@ -58,11 +62,27 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  ## Type Casting
  -Type casting(type conversion) ek aisa method main jisme hum kisi variable ke type ko kisi dusre type mein convert kar dete hain niche diye gaye code ko aap apne computer per run karke output dekh sakte hain.
  ```
-    x = 3   # x is int(integer) type variable
-    z = str(x) # here x converted in string and assgin to z
-    print(type(z)) # str(string)
-    print(z) # output:=> 3
+    x = 3                   # x is int(integer) type variable
+    z = str(x)              # here x converted in string and assgin to z
+    print(type(z))          # str(string)
+    print(z)                # output:=> 3
  ```
  - Type casting ke bhi do type hote hain
     > 1. Implicit type casting
-    > 2. Explicit type casting
+    > 2. Explicit type 
+    
+    - Implicit type casting :- Kabhi-kabhi programming language apne aap hi ek data type ko doosre data type mein convert kar deta hai, bina kisi explicit instruction ke. For example, ek integer ko float mein add karne par automatic conversion ho sakta hai.
+    ```
+    x = 5                       # int type of variable
+    y = 3.14                    # float type of variable
+    result = x + y              # Implicit type casting
+    print(type(result))         # <class 'str'>
+    ```
+    - Explicit type casting := Explicit type casting mein programmer interpreter ko bata hai ki ek data type ko dusre data type main convert karna hai.
+    ```
+        x = 5               # int type of variable
+        z = float(x)        # explicit type casting int to float
+        print(z)            # output:=> 5.0
+        print(type(z))      # output:=> <class 'float'>
+    ```
+
