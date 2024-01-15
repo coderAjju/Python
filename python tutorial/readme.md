@@ -64,5 +64,5 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
     print(z) # output:=> 3
  ```
  - Type casting ke bhi do type hote hain
-    1. Implicit type casting
-    2 Explicit type casting
+    > 1. Implicit type casting
+    > 2. Explicit type casting
