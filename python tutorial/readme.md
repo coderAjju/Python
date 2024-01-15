@@ -35,15 +35,34 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
 ## Comments in Python
  - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain. Python language ke andar koi multi line comment likhna ka symbol nhi hain hame each line ke liye hash (#) use karna padega.
     
-    ```print("Hello, World!") #this is comment```
+    ```
+    print("Hello, World!") #this is comment
+    ```
  
  ## Variables
  - Variables are just like a container for store data.
  - Python programming language mein aisa koi keyword nhi hain jisse hum variable ke type of define kar paye.
  - Declaration of python variables...
  ```
-    x=4    # int type variable
-    y="ajay"   # string type variable
-    print(x) # printing value of x
-    print(y) # printing value of y
+    a = 4                                          # int type variable
+    b = 4.5                                        # float type variable
+    c = "ajay"                                     # string type variable
+    d = True or False                              # boolean type variable
+    print(a)                                       # printing value of a
+    print(b)                                       # printing value of b
+    print(c)                                       # printing value of c
+    print(d)                                       # printing value of d
  ```
+ [aur bhi kai tarah ke variable hote hain jaise lists,dictionaries,sets,tuples aage hum enke barein main padhenge].
+
+ ## Type Casting
+ -Type casting(type conversion) ek aisa method main jisme hum kisi variable ke type ko kisi dusre type mein convert kar dete hain niche diye gaye code ko aap apne computer per run karke output dekh sakte hain.
+ ```
+    x = 3   # x is int(integer) type variable
+    z = str(x) # here x converted in string and assgin to z
+    print(type(z)) # str(string)
+    print(z) # output:=> 3
+ ```
+ - Type casting ke bhi do type hote hain
+    1. Implicit type casting
+    2 Explicit type casting
