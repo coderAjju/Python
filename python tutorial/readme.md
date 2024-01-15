@@ -1,5 +1,5 @@
-# Python [Created by Ajay Upadhyay]
-Python ek popular programming language hai jo server per web application banane ke liye bhi use ki ja sakti hai.
+# Python tutorial 
+Python ek high-level, general-purpose programming language hai jo apni readability, simplicity, aur versatility ke liye prasiddh hai. Guido van Rossum ne ise 1991 mein banaya tha
 
 ## What python can do?
 Python ek versatile and popular programming language jo bahut sare kaam kar sakti alag alag field main.
@@ -36,7 +36,7 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain. Python language ke andar koi multi line comment likhna ka symbol nhi hain hame each line ke liye hash (#) use karna padega.
     
     ```
-    print("Hello, World!") #this is comment
+    print("yeh tutorial Ajay Upadhyay ne likha hai python language padhte padhte") #this is comment
     ```
  
  ## Variables
@@ -50,7 +50,7 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  ```
     a = 4                                          # int type variable
     b = 4.5                                        # float type variable
-    c = "ajay"                                     # string type variable
+    c = "Ajay Upadhyay"                            # string type variable
     d = True or False                              # boolean type variable
     print(a)                                       # printing value of a
     print(b)                                       # printing value of b
