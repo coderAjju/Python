@@ -34,6 +34,16 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
 
 ## Comments in Python
  - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain. Python language ke andar koi multi line comment likhna ka symbol nhi hain hame each line ke liye hash (#) use karna padega.
-
+    
     ```print("Hello, World!") #this is comment```
  
+ ## Variables
+ - Variables are just like a container for store data.
+ - Python programming language mein aisa koi keyword nhi hain jisse hum variable ke type of define kar paye.
+ - Declaration of python variables...
+ ```
+    x=4    # int type variable
+    y="ajay"   # string type variable
+    print(x) # printing value of x
+    print(y) # printing value of y
+ ```
