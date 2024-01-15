@@ -27,7 +27,11 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  - Python ek beginner friendly language hai jiske syntax kafi similer hain english language se, jise samajhna aasan hai other programming language ke comparison main.
  - python ek cross platform independent language hai jisse ki ek baar likha gya code kisi bhi platform jaise Windows, Mac, Linux, aur Raspberry Pi per chalaya ja sakta hai.
  - Python ek interpreter programming language hai, iska matlab hai ki jab bhi code likha jata hai, usko turant execute kiya ja sakta hai. 
- -- Jaisa ki python ek versatile programming language hai, iska matlab hai ki python ko procedural programming ke taur per , Object - oriented programming ke taur per ya phir functional programming ke taur per use kiya ja sakta hai.
+ - Jaisa ki python ek versatile programming language hai, iska matlab hai ki python ko procedural programming ke taur per , Object - oriented programming ke taur per ya phir functional programming ke taur per use kiya ja sakta hai.
 
- #### Python main aap hello world ka program kuch ek tarah se likh sakte hain
+ ## Python main aap hello world ka program kuch ek tarah se likh sakte hain
     print("Hello, World!")
+
+## Comments in Python
+ - Hum kisi bhi program main comments likhte hain jisse us program ki readability badh jati hai aur us program ko achhe se samajha ja sakta hai. Python main comment likhne ke liye hum # (hash) ka use karta hain
+    print("Hello, World!") #this is comment
