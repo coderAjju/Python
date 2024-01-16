@@ -43,9 +43,9 @@ Python bahut saare database management system ko support karta hai jaise SQLAlch
  - Variables are just like a container for store data.
  - Python programming language mein aisa koi keyword nhi hain jisse hum variable ke type of define kar paye.
  - Variable name jo hote hain wo case-sensitive hote hain jaise ajay aur AJAY both are different.
-        - kisi bhi variable ko aap number se nhi bana sakte jaise 2x,3name 
-        - aap kisi bhi variable ko symbol se nhi bana sakte jaise #name,@value
-        - aap kewal character aur underscore ka use kareinge variable banane ke liye jaise x,y,name,_value
+        1. kisi bhi variable ko aap number se nhi bana sakte jaise 2x,3name 
+        2. aap kisi bhi variable ko symbol se nhi bana sakte jaise #name,@value
+        3. aap kewal character aur underscore ka use kareinge variable banane ke liye jaise x,y,name,_value
  - Declaration of python variables...
  ```
     a = 4                                          # int type variable
